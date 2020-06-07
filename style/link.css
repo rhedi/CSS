@@ -1,0 +1,18 @@
+a:link { //link yang blm di kunjungi atau di klik
+  color: orange;
+}
+
+a:visited {  //link yg sudah kita buka atau di kunjungi
+  color: green;
+}
+
+a:hover { //ketika mouse kita mengarahkan kepada link
+  color: red;
+}
+
+a:active { //ketika di klik dan tekan akan berubah warna ini
+  color: yellow;
+}
+a {
+  text-decoration: none; //menghilangkan garis bawah tulisan
+}

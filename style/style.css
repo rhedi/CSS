@@ -1,0 +1,60 @@
+/* h1 {
+  color: blue;
+}
+
+#judul {
+  color: orange;
+}
+
+.belajar{
+  color: green;
+}
+
+h3, h4, h5{
+  color : red;
+} */
+
+/* *{  /*universal selector
+  color: blue;
+  background-color: white;
+} */
+
+[type="submit"] {
+  background-color: orange;
+}
+
+#idwarna {
+  color: red;
+}
+
+h2 {
+  color: blue;
+}
+
+.warnakelas {
+  background-color: orange;
+}
+
+body {
+  /* background-image: url(gambar.jpg); */
+  /* background-image: url("https://cdn.pixabay.com/photo/2018/01/31/12/16/architecture-3121009_960_720.jpg");
+  background-repeat: no-repeat;
+  background-position: center top; */
+  background: #C0C0C0 url("gambar.jpg") no-repeat center top;
+}
+
+.bordercss {
+  /* border-style: dotted; */
+
+  /* border-style: dashed; */
+  /* border-style: solid; */
+  /* border-style: double; */
+  /* border-style: groove; */
+  /* border-style: ridge; */
+  /* border-style: inset; */
+  /* border-style: outset; */
+
+  /* border-style: none; */
+  /* border-style: hidden; */
+  border-style: dotted dashed none double;
+}

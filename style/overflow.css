@@ -1,0 +1,13 @@
+.overflow1 {
+  height: 150px;
+  width: 150px;
+  background-color: orange;
+  overflow: scroll;
+}
+
+.overflow2 {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  overflow: auto;
+}

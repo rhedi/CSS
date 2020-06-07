@@ -1,0 +1,9 @@
+.img-desc {
+  width: 150px;
+  height: 150px;
+  float: none;
+}
+
+h1 {
+  display: inline-block;
+}

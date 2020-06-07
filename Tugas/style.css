@@ -1,0 +1,78 @@
+/* h1 {
+  text-transform: capitalize;
+}
+
+.p_pertama {
+  text-align: justify;
+}
+
+#p_kedua {
+  text-decoration: underline;
+  line-height: 100%;
+}
+
+* {
+  color: white;
+  background-color: green;
+}
+
+.p_tiga, .p_empat {
+  text-align: center;
+}
+
+.p_lima {
+  text-decoration: line-through;
+} */
+
+/* @font-face {
+  font-family: "Digital-7";
+  src: url("digital-7.TTF");
+}
+
+p {
+  font-family: "Digital-7";
+  font-size: 3em;
+} */
+
+.container {
+  width: 700px;
+  height: 500px;
+  background-color: rgb(231, 232, 226);
+  margin: 0 auto;
+  position: relative;
+}
+
+.satu {
+  background-color: #4286f4;
+  left: 10px;
+  top: 10px;
+  position: absolute;
+  z-index: 3;
+}
+
+.dua {
+  background-color: #26c115;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  z-index: 1;
+}
+
+.tiga {
+  background-color: #c11534;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  z-index: 2;
+}
+
+.satu,
+.dua,
+.tiga {
+  width: 150px;
+  height: 150px;
+  font-size: 25px;
+  line-height: 150px;
+  text-align: center;
+  color: white;
+}
